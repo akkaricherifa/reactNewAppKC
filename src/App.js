@@ -2,8 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar';
 
+
+
 function App() {
   return (
+    
     <div className="App">
       <Navbar />
       <header className="App-header">
@@ -12,9 +15,10 @@ function App() {
         <p>pour bien organisé vos evenements </p>
         <img src="/images/clean.jpg" alt="Hommes et femmes de ménage" />
        
-       
+      
       </header>
     </div>
+  
   );
 }
 
