@@ -12,7 +12,7 @@ function Inscription() {
 
     
   const handleInscription = () => {
-    // Ici, vous pouvez mettre en place la logique pour traiter les données d'inscription
+    // Ici, on met la logique pour traiter les données d'inscription
     console.log('Données d\'inscription :', { nom, prenom, numero, adresse, genre, age });
   };
 
